@@ -38,9 +38,15 @@
     <source>6</source>
     <target>1.6</target>
     <encoding>${project.build.sourceEncoding}</encoding>
-    
+    </configuration> 
+  </plugin>
+  
+  <plugin>
+   <groupId>org.codehaus.mojo</groupId>
+    <artifactId>exec-maven-plugin</artifactId>
+    <configuration>
+    <mainClass>com.sonar.sonar.Sample</mainClass>
     </configuration>
-    
   </plugin>
   
   </plugins>
