@@ -26,7 +26,8 @@
      <configuration>
     <!-- Suite testng xml file to consider for test execution -->
         <suiteXmlFiles>
-        <suiteXmlFile>/Users/naveenupputuri/git/repository/sonar/testng.xml</suiteXmlFile>
+        <suiteXmlFile>/Users/naveenupputuri/git/repository/sonar/testng.xml</suiteXmlFile> 
+        <!--  <suiteXmlFile>{suiteXmlFiles}</suiteXmlFile>-->
           </suiteXmlFiles> 
     </configuration>
     <version>2.22.1</version>
